@@ -1,48 +1,45 @@
-# 🧠 Retrieval-Augmented Generation (RAG) – Session Code
+# 🧠 RAG Series – Code Repository
 
-This repository contains code examples and notebooks for each session in the **YouTube RAG Series** where we build a domain-specific Question Answering system using the RAG framework.
+This repository contains session-wise code for building a domain-specific Question Answering system using the **Retrieval-Augmented Generation (RAG)** framework.
 
----
-
-## 📌 Series Overview
-
-We use a curated set of **Quantum Computing notes** as the knowledge base and walk through each component of RAG with hands-on examples.
+We use **Quantum Computing notes** as the knowledge base and walk through each component in the RAG pipeline using practical, easy-to-follow notebooks.
 
 ---
 
-## 🎥 Episodes & Code
+## 📂 Repository Structure
 
-| Episode | Topic | Link |
-|--------|-------|------|
-| **Part 1** | Introduction to RAG + Embedding Models | [View Code →](./part1/) |
-| **Part 2** | Vector Databases & Similarity Search | [View Code →](./part2/) |
-| **Part 3** | Generator Model Integration & Project Build | [View Code →](./part3/) |
+### 📘 Notebooks
+
+| Filename | Description |
+|----------|-------------|
+| `01. Embedding model.ipynb` | Introduction to RAG & Embedding generation using Sentence Transformers |
+| `02.1. Data Prep.ipynb` | Preparing and formatting knowledge base (quantum notes) |
+| `02.2-Vector_database_and_similarity_search.ipynb` | Creating vector store, performing similarity search |
+| `02.2-Vector_database_and_similarity_search-Copy1.ipynb` | (Backup/variation of 02.2) |
+| `02.3-Vector_database_reusing.ipynb` | How to load and reuse pre-built vector database |
+| 🔗 **[Full Project Code Repository](https://github.com/khotveer/rag-embedding-pipeline)** | Complete RAG implementation from end to end |
+
+### 📁 Folders
+
+- `data/` → Contains input text data (quantum notes)
+- `chroma_bge_768/` → Local ChromaDB vector store built using BGE-768 embedding model
 
 ---
 
-## ⚙️ Tech Stack
+## 📌 Tech Stack
 
 - **Python**
-- **Sentence Transformers** for embeddings
-- **FAISS / ChromaDB** as Vector Store
-- **Meta-LLaMA / DistilGPT2** as Generator
-- **LangChain / Custom RAG logic**
+- **Sentence Transformers** (`bge-small-en-v1.5`)
+- **ChromaDB** for vector storage
+- **Hugging Face Transformers**
+- **LangChain** (optional integration)
 
 ---
 
-## 🔗 Related Links
+## 🔗 Resources
 
-- 📁 Full Project Repo → [GitHub – RAG Complete Project](https://www.linkedin.com/in/veer-khot-93177bab/)
-- 👨‍💼 Connect on LinkedIn → [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-id)
-
----
-
-## 🤝 Contributions
-
-Feel free to open issues or pull requests if you'd like to contribute or suggest improvements!
+- 🎥 [YouTube Playlist – RAG Series](https://youtube.com/yourplaylistlink)
+- 💻 [GitHub – Full Project Repo](https://github.com/khotveer/rag-embedding-pipeline)
+- 👨‍💼 [Connect on LinkedIn](https://www.linkedin.com/in/veer-khot-93177bab/)
 
 ---
-
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).
