@@ -38,7 +38,7 @@ We use **Quantum Computing notes** as the knowledge base and walk through each c
 
 ## 🔗 Resources
 
-- 🎥 [YouTube Playlist – RAG Series](https://youtube.com/yourplaylistlink)
+- 🎥 [YouTube Playlist – RAG Series](https://www.youtube.com/playlist?list=PLvz-QS4T63WZycSpgi6K2bsMiAUgXkJP0)
 - 💻 [GitHub – Full Project Repo](https://github.com/khotveer/rag-embedding-pipeline)
 - 👨‍💼 [Connect on LinkedIn](https://www.linkedin.com/in/veer-khot-93177bab/)
 
